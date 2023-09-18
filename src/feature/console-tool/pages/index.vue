@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script lang="ts" src="./index.ts"></script>
 
 <template>
-<router-view></router-view>
+  <div>
+  {{count}}
+  </div>
 </template>
 
 <style scoped>
